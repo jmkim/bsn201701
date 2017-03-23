@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/bsn"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="DB_USERNAME_HERE"
+              password="DB_PASSWORD_HERE"
+              driverClassName="DB_CLASSNAME_HERE"
+              url="DB_URL_HERE"
+              maxTotal="100"
+              maxIdle="100"
+              maxWaitMillis="3000"
+    />
+</Context>

@@ -1,0 +1,38 @@
+section, footer {
+    margin-top: 30px;
+}
+
+.text-no-wrap {
+    white-space: nowrap;
+}
+
+.container {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.text-monospace {
+    font-family: monospace;
+}
+
+@media (max-width: 575px) {
+    footer {
+        font-size: 8pt;
+        line-height: 1.3em;
+    }
+
+    footer > p {
+        margin-bottom: 3px;
+    }
+}
+
+@media (min-width: 576px) {
+    footer {
+        font-size: 10pt;
+        line-height: 1.3em;
+    }
+
+    footer > p {
+        margin-bottom: 8px;
+    }
+}
